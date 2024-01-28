@@ -1,8 +1,8 @@
 {
-  "name": "evilevgeniys-web-template",
-  "version": "1.0.1",
-  "description": "this repo uses for template",
-  "main": "index.js",
+  "name": "pulse_landing_site",
+  "version": "1.0.0",
+  "description": "this is template for web-development",
+  "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
