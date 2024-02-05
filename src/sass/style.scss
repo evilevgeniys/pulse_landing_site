@@ -10,6 +10,7 @@
 @import 'blocks/forms';
 @import 'blocks/carousel';
 @import 'blocks/catalog';
+@import 'blocks/reviews';
 
 
 
@@ -19,6 +20,6 @@
 }
 
 .container {
-    min-width: 950px;
+    width: 950px;
     margin: 0 auto;
 }
