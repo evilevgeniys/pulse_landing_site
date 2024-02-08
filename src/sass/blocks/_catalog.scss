@@ -1,5 +1,8 @@
 .catalog {
 	padding-bottom: 100px;
+	.title {
+		margin-bottom: 46px;
+	}
 	&__tabs {
 		display: flex;
 		justify-content: center;
@@ -136,21 +139,26 @@
 				transform: translateX(-100%);
 				margin-left: 20px;
 			}
-			li {
-                position: relative;
-				font-weight: 300;
-				font-size: 14px;
-				color: #555555;
-                margin-bottom: 20px;
-                &:before {
-                    content: '';
-                    position: absolute;
-                    width: 5px;
-                    height: 5px;
-                    background-color: $main-color;
-                    left: -14px;
-                    top: 7px;
-                }
+			ul {
+				padding-left: 0;
+				margin-bottom: 0;
+				list-style-type: none;
+				li {
+					position: relative;
+					font-weight: 300;
+					font-size: 14px;
+					color: #555555;
+					margin-bottom: 20px;
+					&:before {
+						content: '';
+						position: absolute;
+						width: 5px;
+						height: 5px;
+						background-color: $main-color;
+						left: -14px;
+						top: 7px;
+					}
+				}
 			}
 		}
         &__back {
