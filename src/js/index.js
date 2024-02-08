@@ -51,4 +51,14 @@ $(document).ready(function(){
         $('.overlay, #order').fadeIn();
       })
     });
+
+    //smooth scroll and page up
+
+    $(window).scroll(function() {
+      if($(this).scrollTop() > 1600) {
+        $('.pageup').fadeIn();
+      } else {
+        $('.pageup').fadeOut();
+      }
+    });
   });
